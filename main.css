@@ -54,3 +54,34 @@ footer {
 	padding: 10px 0;
     justify-content: flex-start;   
 }
+
+/* ---ABOUT ME--- */
+
+.family{
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.hobbies{
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* ---BLOG--- */
+.text-content{
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  z-index: 12;
+}
+header .text-content .text{
+  font-size: 30px;
+  color: #161922;
+}
+header .text-content .name{
+color: #090b10;
+ font-size: 75px;
+ font-weight: 600;
+ margin: -20px 0 0 -3px;
+}
